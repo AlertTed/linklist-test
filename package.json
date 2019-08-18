@@ -1,0 +1,18 @@
+{
+  "name": "linklist-test",
+  "version": "1.0.0",
+  "description": "this is a unit test for link list",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --require @babel/register"
+  },
+  "author": "Ted",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^6.2.0",
+    "@babel/core": "^7.5.5",
+    "@babel/register": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "@babel/plugin-proposal-class-properties": "^7.5.5"
+  }
+}
